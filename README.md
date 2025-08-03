@@ -2,103 +2,68 @@
 
 ## 📌 Internship: Machine Learning Track – Future Interns
 
-This project is part of my Machine Learning internship with [Future Interns](https://futureinterns.com/). The goal of this task is to develop a smart dashboard that predicts future retail sales trends using historical data and visualizes them interactively.
+This repository contains Task 1 of my Machine Learning Internship with [Future Interns](https://futureinterns.com/). The goal was to build and deploy a sales forecasting dashboard using AI techniques and time series modeling.
 
 ---
 
 ## 🎯 Task Overview
 
-**Task 1:** AI-Powered Sales Forecasting Dashboard  
-Build a dashboard that predicts future sales trends using time series forecasting models.
+**Task 1:** Build a dashboard that predicts future sales trends using historical data.
 
 ---
 
 ## 🧠 Skills Gained
 
-- Time Series Forecasting  
-- Trend and Seasonality Decomposition  
-- Interactive Dashboard Development  
-- Data Cleaning & Visualization  
-- Working with Facebook Prophet
+- Time Series Forecasting with Prophet  
+- Interactive Dashboard Development with Streamlit  
+- Data Cleaning & Aggregation with Pandas  
+- Trend & Seasonality Visualization  
+- Model Deployment on Streamlit Cloud
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| **Python** | Core programming |
-| **Pandas** | Data manipulation |
-| **Facebook Prophet** | Time series forecasting |
-| **Matplotlib** | Visualization (forecast.py) |
-| **Streamlit** | Interactive dashboard |
-| **Plotly** | Dynamic plots |
-| **VS Code** | Development environment |
+| Tool      | Purpose                         |
+|-----------|---------------------------------|
+| Python    | Core programming language       |
+| Pandas    | Data cleaning and manipulation  |
+| Prophet   | Time series forecasting         |
+| Plotly    | Interactive graphing            |
+| Streamlit | Web dashboard framework         |
+| VS Code   | Development environment         |
 
 ---
 
 ## 📂 Dataset
 
 - **Source:** [Kaggle – Superstore Sales Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-- Contains daily retail sales data including date and amount sold.
+- Contains daily retail sales figures.
 
 ---
 
 ## 📊 Features
 
-- 📅 Forecast up to 180 days into the future
-- 🔁 Real-time interactive controls for forecast range
-- 📈 Visualize sales trends, seasonality, and future predictions
-- 📤 Export forecast data as CSV
-- ⚙️ Built with a modern, futuristic UI using Streamlit
+- 📅 Forecast up to 180 days into the future  
+- 📈 Visualize sales trends, seasonality, and confidence intervals  
+- 🎛️ Adjustable forecast period using sidebar  
+- 📤 Download forecast results as CSV  
+- 🌌 Professional dark UI with modern layout
 
 ---
 
-## 🚀 How to Run the Dashboard
+## 🌐 Live Demo
 
-1. Install dependencies:
-    ```bash
-    pip install pandas prophet matplotlib streamlit plotly
-    ```
+🔗 **Try the App Here:**  
+[https://anandshadow-future-ml-01-dashboard-b8paia.streamlit.app](https://anandshadow-future-ml-01-dashboard-b8paia.streamlit.app)
 
-2. Launch the dashboard:
-    ```bash
-    streamlit run dashboard.py
-    ```
-
-3. Customize the forecast using the sidebar controls.
+You can test the dashboard online with no setup required.
 
 ---
 
-## 📸 Screenshots
+## 🚀 Getting Started (Local Setup)
 
-*(Add screenshots of the dashboard and forecast plots here)*
-
----
-
-## 🔗 Live Repo
-
-[https://github.com/AnandShadow/FUTURE_ML_01](https://github.com/AnandShadow/FUTURE_ML_01)
-
----
-
-## 🧾 Completion Status
-
-- ✅ Data Processing
-- ✅ Forecast Model (Prophet)
-- ✅ Forecast Export (CSV)
-- ✅ Interactive Dashboard (Streamlit)
-- ✅ GitHub Public Repo
-- ✅ LinkedIn Post (In Progress...)
-
----
-
-## 🙋‍♂️ Author
-
-**Anand**  
-Machine Learning Intern – Future Interns  
-[LinkedIn](https://www.linkedin.com/in/) *(add your profile link)*
-
----
-
-> ⭐ Proud to be part of the self-paced internship program at **Future Interns**
+### 1. Clone the repo
+```bash
+git clone https://github.com/AnandShadow/FUTURE_ML_01.git
+cd FUTURE_ML_01
